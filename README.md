@@ -31,9 +31,7 @@ Contributing
 License
 
 # 🎥 Demo
-Watch the Demo Video
-https://youtu.be/l8CTEOd3hBE 
-Click above to see HealthGuard AI in action!
+Watch the Demo Video at https://youtu.be/l8CTEOd3hBE to see HealthGuard AI in action!
 
 text
 User: "I'm having a panic attack"
