@@ -137,7 +137,7 @@ Server	Uvicorn	ASGI server
 Prerequisites
 Python 3.9 or higher
 
-Google Gemini API key (Get one here)
+Google Gemini API key
 
 pip (Python package manager)
 
@@ -182,7 +182,7 @@ cd backend
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 Your server will be running at http://localhost:8000
 
-⚙️ Configuration
+Configuration
 Environment Variables
 Variable	Description	Required	Default
 GEMINI_API_KEY	Your Google Gemini API key	✅ Yes	-
@@ -193,7 +193,7 @@ PORT	Server port	❌ No	8000
 HOST	Server host	❌ No	0.0.0.0
 RETELL_API_KEY	Retell.ai API key	❌ No	-
 RETELL_AGENT_ID	Retell.ai agent ID	❌ No	-
-🚀 Usage
+Usage
 Testing the API
 Root Endpoint
 bash
@@ -225,7 +225,7 @@ json
     "response_length": 1245
   }
 }
-📚 API Documentation
+API Documentation
 Once the server is running, access auto-generated documentation:
 
 Swagger UI: http://localhost:8000/docs
@@ -281,15 +281,12 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-# 📄 License
-Distributed under the MIT License. See LICENSE for more information.
-
-# 📧 Contact
+# Contact
 Kashaf Fatima - kash.fatima7@gmail.com
 
 Project Link: https://github.com/Kashaffatimaaa/HealthGuard-AI-Complete-Medical-Chatbot
 
-# 🙏 Acknowledgments
+# Acknowledgments
 Google Gemini API
 
 FastAPI
